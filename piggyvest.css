@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F7F8;
+}
+
+a{
+    text-decoration: none;
+    color: #122231;
+    line-height: 27px;
+    font-weight: 600;
+}
+li{
+    list-style: none;
+}
+
+.contain{
+    padding: 0 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    /* position: fixed; */
+    li{
+        margin: 20px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+    ul{
+        display: flex;
+    }
+}
+
+.nav1 ul{
+    margin-right: 200px;
+}
+
+.nav2{
+    a{border: 1px solid #122231;
+    border-radius: 10px;
+    padding: 15px 15px;
+    width: 200px;
+    }
+    li{
+        margin: 5px;
+    }
+}
+
+.nav2 .brd{
+    background-color: #122231;
+    color: white;
+}
+
+.grid{
+    display: none;
+}
+
+.hero-page{
+    display: flex;
+    margin: 100px 0;
+    align-items: center;
+}
+.hero-text{
+    h1{
+        font-size: 48px;
+        line-height: 56px;
+        font-weight: 700;
+        padding-right: 30%;
+        color: #122231;
+        margin: 30px 0;
+    }
+    p{
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #3D4F60;
+        padding-right: 43%;
+    }
+
+    img{
+        width: 150px;
+        margin: 30px 5px;
+    }
+}
+
+.Report{
+    display: block;
+    background-color: #0089FF;
+    color: white;
+    width: 350px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    text-align: center;
+}
+.Report:hover{
+    background-color: #122231;
+}
+
+.hero-image{
+    img{
+        width: 500px;
+        border: 3px border white;
+        border-radius: 20px;
+    }
+}
+
+.secure{
+    img{
+        width: 100px;
+    }
+}
+
+.secure-page{
+    display: flex;
+    margin: 100px 0;
+}
+.secure-text{
+    margin-left: 30px;
+    h2{
+        font-size: 24px;
+        line-height: 33px;
+        font-weight: 700;
+        color: #122231;
+    }
+    p{
+        line-height: 27px;
+        font-weight: 400;
+        color: #3D4F60;
+        padding-right: 40%;
+        padding: 20px 40% 15px 0;
+    }
+    img{
+        width: 20px;
+    }
+}
+
+.text-sec{
+    text-align: center;
+    h1{
+        color: #122231;
+        font-size: 48px;
+        line-height: 66px;
+        font-weight: 700;
+    }
+    p{
+        color: #3D4F60;
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: 400;
+        padding: 20px 0 50px 0;
+    }
+}
+
+.card-page{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    /* justify-content: space-around; */
+    gap: 30px;
+    margin: 50px 0 100px;
+    
+}
+
+.card{
+    box-sizing: border-box;
+    width: 500px;
+    height: 450px;
+    padding: 60px 30px;
+    border-radius: 40px;
+    margin: 0 130px;
+    a{
+        color: white;
+    }
+    h1{font-size: 36px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 19px;
+        line-height: 28px;
+        font-weight: 400;
+        margin-top: 30px;
+        width: 70%;
+    }
+    img{
+        display: none;
+        width: 150px;
+        margin-left: 230px;
+    }
+    button{
+        border: 0;
+        margin-top: 180px;
+        color: white;
+    }
+}
+
+.card:hover{
+    img{
+        display: block;
+        transition: all 350ms;
+        width: 200px;
+        margin-left: 230px;
+    }
+    button{
+        margin: 0;
+    }
+    
+}
+
+.investment{
+    text-align: center;
+    background-color: white;
+    padding: 200px 0;
+
+    h1{
+        font-size: 51px;
+        line-height: 64px;
+        font-weight: 700;
+        color:#122231;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 24px;
+        line-height: 33px;
+        font-weight: 400;
+        color: #3D4F60;
+    }
+}
+
+.invest-text{
+    width: 45%;
+    text-align: left;
+    a{
+        color: white;
+        img{
+            width: 20px;
+        }
+    }
+    h1{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        color: white;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #FED6F1;
+        width: 60%;
+        margin-bottom: 200px;
+    }
+}
+
+.invest-image{
+    img{
+        width: 400px;
+        height: 460px;
+    }
+}
+
+.invest-card{
+    margin-top: 50px;
+    background-color: #7913E5;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 0;
+}
+
+.video-sec{
+    text-align: center;
+}
+
+.video-text{
+    padding: 100px;
+    h1{
+        font-size: 51px;
+        line-height: 64px;
+        font-weight: 700;
+        color:#122231;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 24px;
+        line-height: 33px;
+        font-weight: 400;
+        color: #3D4F60;
+        padding: 0 10%;
+    }
+}
+
+iframe{
+    border: 15px solid white;
+    border-radius: 30px;
+    margin-bottom: 200px;
+}
+
+.stories-image{
+    img{
+        width: 450px;
+    }
+}
+
+.stories-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    a{
+        border: 1px solid #BBBBBB;
+        padding: 12px 15px;
+        text-align: center;
+        margin: 5px;
+        border-radius: 10px;
+        img{
+            width: 20px;
+        }
+    }
+}
+
+.stories-section a:hover{
+    font-size: 18px;
+    transition: all 350ms;
+}
+
+.stories-text{
+    padding: 0 90px;
+    h1{
+        font-size: 33px;
+        line-height: 41px;
+        font-weight: 700;
+        color: #122231;
+        margin-bottom: 30px;
+    }
+}
+
+.sponsors-text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 41px;
+    color: #122231;
+}
+
+.sponsors-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    img{
+        width: 150px;
+    }
+}
+
+.sponsors{
+    margin-bottom: 150px;
+}
+
+.socials-logo{
+    img{
+        width: 30px;
+    }
+}
+.prop-img{
+    width: 100px;
+}
+.prop-img .cert{
+        width: 150px;
+        margin-top: 30px;
+}
+
+.prop-page{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    a{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #3D4F60;
+    }
+    h5{
+        color: #122231;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    li{
+        margin: 10px 0;
+    }
+}
+
+.prop-page li a:hover{
+    color: #53BEF6;
+}
+
+.prop-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.socials{
+    text-align: right;
+}
+
+.pg{
+    font-size: 11px;
+    line-height: 22px;
+    color: #898e97;
+    width: 55%;
+    margin-top: 30px;
+    .two{
+        margin-top: 30px;
+        width: 65%;
+    }
+    .three{
+        margin-top: 30px;
+        color: #083EB7;
+    }
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    margin: 0 150px;
+}
+
+@media screen and (max-width:768px) {
+    body{
+        box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        .nav1, .nav2{
+            display: none;
+        }
+    }
+    .logo{
+        width: 90%;
+        img{
+            width: 150px;
+        }
+    }
+    .grid{
+        display: block;
+        text-align: right;
+        width: 10%;
+        img{
+            width: 30px;
+        }
+    }
+    .hero-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-text{
+        text-align: center;
+        margin: 100px;
+    }
+    .hero-text{
+        h1{
+            padding: 0;
+        }
+        p{
+            padding: 0;
+        }
+    }
+    .text-sec{
+        h1{
+            font-size: 28px;
+            font-weight: 400;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    .card-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 450px;
+    }
+
+    .card-image{
+        img{
+            margin-right: 500px;
+        }
+    }
+
+    .secure-page{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        p{
+            padding: 0;
+
+        }
+    }
+    .secure-img{
+        img{
+            margin-left: 0;
+        }
+    }
+
+    .text-sec{
+        text-align: center;
+        h1{
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+    .invest-card{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .invest-text{
+        text-align: center;
+        width: 100%;
+        p{
+            width: 100%;
+            font-size: 18px;
+            line-height: 26px;
+            margin-bottom: 20px;
+        }
+    }
+    .invest-image{
+        margin-top: 40px;
+        object-fit: contain;
+        img{
+            width: 300px;
+            height: 350px;
+        }
+    }
+    .video-text{
+        padding: 100px 50px;
+        h1{
+            font-size: 40px;
+            line-height: 35px;
+            padding: 0px 30px;
+        }
+        p{
+            font-size: 17px;
+            line-height: 33px;
+        }
+    }
+    .stories-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .stories-text{
+        h1{
+            text-align: center;
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+
+    .stories-image{
+        margin-top: 70px;
+    }
+    iframe{
+        width: 500px;
+    }
+    .sponsors-text{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .sponsors-image{
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        img{
+            width: 100px;
+            margin: 10px 0;
+        }
+    }
+    .prop-page{
+        display: flex;
+        flex-direction: column;
+        h5{
+            padding-top: 50px;
+        }
+    }
+    .links{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0;
+    }
+    .pg{
+        width: 90%;
+        font-size: 9px;
+    }
+    .socials{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 30px;
+        .socials-logo{
+            margin-bottom: 10px;
+        }
+    }
+    .address{
+        width: 70%;
+        line-height: 30px;
+    }
+}

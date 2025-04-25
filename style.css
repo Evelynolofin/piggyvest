@@ -21,8 +21,6 @@ li{
 
 .contain{
     padding: 0 40px;
-    max-width: 1200px;
-    margin: auto;
 }
 
 nav{
@@ -30,7 +28,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
-    /* position: fixed; */
+    max-width: 1200px;
+    margin: auto;
     li{
         margin: 20px;
         line-height: 27px;
@@ -65,6 +64,10 @@ nav{
     display: none;
 }
 
+.hero{
+    max-width: 1200px;
+    margin: auto;
+}
 .hero-page{
     display: flex;
     margin: 100px 0;
@@ -115,6 +118,8 @@ nav{
 }
 
 .secure{
+    max-width: 1200px;
+    margin: auto;
     img{
         width: 100px;
     }
@@ -146,6 +151,8 @@ nav{
 
 .text-sec{
     text-align: center;
+    max-width: 1200px;
+    margin: auto;
     h1{
         color: #122231;
         font-size: 48px;
@@ -159,6 +166,11 @@ nav{
         font-weight: 400;
         padding: 20px 0 50px 0;
     }
+}
+
+.card-section{
+    max-width: 1200px;
+    margin: auto;
 }
 
 .card-page{
@@ -220,6 +232,8 @@ nav{
     text-align: center;
     background-color: white;
     padding: 200px 0;
+    max-width: 1200px;
+    margin: auto;
 
     h1{
         font-size: 51px;
@@ -279,6 +293,8 @@ nav{
 
 .video-sec{
     text-align: center;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .video-text{
@@ -300,9 +316,16 @@ nav{
 }
 
 iframe{
+    max-width: 1200px;
+    margin: auto;
     border: 15px solid white;
     border-radius: 30px;
     margin-bottom: 200px;
+}
+
+.stories{
+    max-width: 1200px;
+    margin: auto;
 }
 
 .stories-image{
@@ -362,6 +385,8 @@ iframe{
 
 .sponsors{
     margin-bottom: 150px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .socials-logo{
@@ -369,6 +394,12 @@ iframe{
         width: 30px;
     }
 }
+
+.prop{
+    max-width: 1200px;
+    margin: auto;
+}
+
 .prop-img{
     width: 100px;
 }
@@ -429,6 +460,11 @@ iframe{
     display: grid;
     grid-template-columns: repeat(3, 200px);
     margin: 0 150px;
+}
+
+.final-section{
+    max-width: 1200px;
+    margin: auto;
 }
 
 @media screen and (max-width:768px) {
